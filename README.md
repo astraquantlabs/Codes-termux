@@ -7,15 +7,15 @@ pkg update && pkg upgrade -y
 # Install required tools
 pkg install wget -y
 
-# Download and run the Kali NetHunter installer script
+# Download and run the Kali NetHunter installer 
 wget -O install-nethunter-termux https://offs.ec/2MceZWr
 chmod +x install-nethunter-termux
 ./install-nethunter-termux  
  
-#write this 
+#write this on the command line
 nethunter  
 
-#After fed time write this
+#After few time write this command
 nethunter kex passwd   
 
 nethunter kex &   
