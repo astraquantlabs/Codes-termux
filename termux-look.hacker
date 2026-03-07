@@ -1,0 +1,35 @@
+#install termux from f-droid and type this command. -
+
+#step 1:-
+
+pkg update
+pkg upgrade
+
+#step 2:-
+
+nano ~/.zshrc
+
+#step 3:-
+
+PROMPT='%F{green}%n@localhost%f %F{cyan}%~%f %# '
+clear
+figlet ASTRAQUANT
+neofetch
+
+#press-CTRL + X
+2     Y
+3      enter
+
+#step 4:-
+
+#-It will say to install some pkg. so, install them. By- pkg install "pkg name"
+          pkg install "pkg name"
+
+#step 5:-
+
+source ~/.zshrc
+
+#-done type "exit" and instantly whenever you exit it got a hacker theme. 
+
+
+
