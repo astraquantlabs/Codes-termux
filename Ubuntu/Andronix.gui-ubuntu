@@ -1,1 +1,9 @@
+#- go to termux and type this command :-
 
+pkg update -y && pkg install wget curl proot tar -y && wget https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Ubuntu22/ubuntu22-xfce.sh -O ubuntu22-xfce.sh && chmod +x ubuntu22-xfce.sh && bash ubuntu22-xfce.sh
+
+#- it will ask for password and many more it is imp. to give answer of all. 
+#- download vnc viewer type-
+   localhost:1
+   password
+#- and done
