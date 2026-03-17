@@ -1,1 +1,45 @@
+Update Kali NetHunter
+#1First update packages:
 
+  sudo apt update && sudo apt upgrade -y
+
+2️⃣ Install common penetration-testing tools:-
+
+#2Network scanning:-
+
+#3Install Nmap:
+
+  sudo apt install nmap -y
+
+#4Web security testing-
+
+#5Install Nikto:
+
+  sudo apt install nikto -y
+
+#6Password testing-
+
+#7Install John the Ripper:
+
+  sudo apt install john -y
+
+#8Exploitation framework
+
+#9Install Metasploit Framework:
+
+  sudo apt install metasploit-framework -y
+
+Run it:
+
+  msfconsole
+
+3️⃣ Install Kali full toolset (optional)
+If you want almost all Kali hacking tools:
+
+  sudo apt install kali-linux-large -y
+
+or
+
+  sudo apt install kali-linux-everything -y
+
+⚠️ This can take many GB of storage.
