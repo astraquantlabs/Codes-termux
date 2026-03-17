@@ -22,12 +22,12 @@ neofetch
 
 #step 4:-
 
-#-It will say to install some pkg. so, install them. By- pkg install "pkg name"
-          pkg install "pkg name"
+source ~/.zshrc
 
 #step 5:-
 
-source ~/.zshrc
+#-It will say to install some pkg. so, install them. By- pkg install figlet
+          pkg install neofetch
 
 #-done type "exit" and instantly whenever you exit it got a hacker theme. 
 
