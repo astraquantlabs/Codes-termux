@@ -1,0 +1,42 @@
+All-in-One Hacker Look Setup Script
+Copy and paste everything below:-
+
+
+Bash id="hacker-setup-all"
+# Update system
+pkg update -y && pkg upgrade -y
+
+# Install basic tools
+pkg install -y git wget curl zsh
+
+# Install cmatrix (matrix effect)
+pkg install -y cmatrix
+
+# Set Zsh as default shell
+chsh -s zsh
+
+# Install Oh My Zsh
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+# Install Powerlevel10k theme
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+
+# Set theme in .zshrc
+sed -i 's/ZSH_THEME=.*/ZSH_THEME="powerlevel10k\/powerlevel10k"/' ~/.zshrc
+
+# Reload shell
+source ~/.zshrc
+
+# Install some useful tools (for learning)
+pkg install -y nmap python
+
+echo "✅ Setup Complete!"
+echo "👉 Run 'cmatrix' for hacker effect"
+echo "👉 Restart Termux to apply full theme"
+🧠 After Running
+
+
+#Start hacker effect:
+
+Bash id="run-cmatrix"
+cmatrix
