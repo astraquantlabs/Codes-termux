@@ -1,24 +1,24 @@
 #step 1->
 
-pkg update && pkg upgrade
-pkg install git
+   pkg update && pkg upgrade
+   pkg install git
 
 #step 2->
 
-git clone https://github.com/ekadanuarta/Tool-X.
+ git clone https://github.com/ekadanuarta/Tool-X.
 
 #step 3->
 
-cd Tool-X
+  cd Tool-X
 
 #step 4->
 
-chmod +x install
+  chmod +x install
 
 #step 5->
 
-sh install
+  sh install
 
 #step 6->
 
-toolx
+  toolx
